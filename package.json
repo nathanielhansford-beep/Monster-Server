@@ -1,0 +1,15 @@
+{
+  "name": "sagemonster-server",
+  "version": "1.0.0",
+  "description": "Overworld + PvP WebSocket relay server for Sagemon",
+  "main": "SageMonsterServer.js",
+  "scripts": {
+    "start": "node SageMonsterServer.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
